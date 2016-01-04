@@ -13,7 +13,7 @@ Hoe.plugin :email unless ENV['CI'] or ENV['TRAVIS']
 Hoe.spec 'mime-types-data' do
   developer('Austin Ziegler', 'halostatue@gmail.com')
 
-  require_ruby_version '>= 2.0'
+  require_ruby_version '>= 1.9'
 
   self.history_file = 'History.md'
   self.readme_file = 'README.md'
